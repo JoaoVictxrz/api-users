@@ -8,6 +8,7 @@ const main = async () => {
   config();
 
   const app = express();
+  app.use(express.json());
   await MongoClient.conect();
   const PORT = process.env.PORT || 3030;
 
