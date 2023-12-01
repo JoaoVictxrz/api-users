@@ -1,7 +1,7 @@
 const express = require("express");
 import { config } from "dotenv";
 import { GetUsersController } from "./controllers/get-users/GetUsersController";
-import { MongoGetUsersRepository } from "./repositories/getuser/mongo-get-users";
+import { MongoGetUsersRepository } from "./repositories/get-user/mongo-get-users";
 import { MongoClient } from "./database/mongo";
 import { MongoCreateUserRepository } from "./repositories/create-user/mongo-create-user";
 import { CreateUserController } from "./controllers/create-user/create-user";
